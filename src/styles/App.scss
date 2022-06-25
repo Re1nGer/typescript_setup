@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: $primary_color;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../assets/Raleway-Regular.ttf');
+}
+

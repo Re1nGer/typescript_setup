@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.navbar {
+    height: 100;
+    margin: 2rem;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+    }
+
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    &__link {
+        color: $secondary_color;
+        text-transform: uppercase;
+        list-style-type: none;
+    }
+}
+

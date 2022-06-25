@@ -1,0 +1,44 @@
+@import "./variables.scss";
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+    &__title {
+        color: $secondary_color;
+        font-size: 94px;
+        font-weight: 800;
+        line-height: 81.74px;
+        flex: 0 1 20vw;
+    }
+    &__icon {
+        display: flex;
+        justify-content: flex-end;
+        flex: 0 1 10vw;
+    }
+    &__photo {
+        flex: 0 1 30vw;
+    }
+}
+
+.continue_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 220px;
+}
+
+
+.description {
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    font-style: normal;
+    letter-spacing: -0.035em;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 137px;
+    color: $secondary_color;
+}
