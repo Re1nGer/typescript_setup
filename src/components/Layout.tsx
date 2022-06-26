@@ -9,9 +9,8 @@ const Layout: FC = () => {
     <div className="layout">
         <Navbar />
         <Outlet />
-        <Footer />
     </div>
-    
+    <Footer />
     </>);
 }
  

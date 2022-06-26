@@ -4,6 +4,7 @@ import landingPhoto from "../assets/LandingPhoto.jpg";
 import landingIcon from '../assets/LandingIcon.svg';
 import continueIcon from '../assets/LandingContinueIcon.svg';
 import Portfolio from "./Portfolio";
+import Socials from "./Socials";
 
  
 const Main: FC = () => {
@@ -30,6 +31,7 @@ const Main: FC = () => {
             <img alt="continue icon" src={continueIcon}/>
         </div>
         <Portfolio />
+        <Socials />
     </>
     );
 }

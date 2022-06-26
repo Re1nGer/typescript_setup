@@ -30,5 +30,12 @@
     &__last__image {
         margin: 0 auto;
     }
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 107px;
+        margin-bottom: 180px;
+    }
 }
 

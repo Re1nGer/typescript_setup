@@ -2,5 +2,41 @@
 
 
 .footer {
+    height: 87px;
+    background-color: $secondary_color;
+    .wrapper {
+        margin: 0 auto;
+        padding-left: 65px;
+        padding-right: 46px;
+        padding-top: 32px;
+        padding-bottom: 36px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1170px;
+        width: 100%;
+        &__left{ 
+            p {
+                font-size: 21px;
+                background-color: $secondary_color;
+                font-variant: small-caps;
+                color: $primary_color;
+                font-weight: 400;
 
+            }
+        }
+
+        &__right {
+            display: flex;
+            justify-content: space-between;
+            background-color: $secondary_color;
+            gap: 40px;
+            p {
+                color: $primary_color;
+                font-variant: small-caps;
+                background-color: $secondary_color;
+                font-weight: 400;
+                font-size: 21px;
+            }
+        }
+    }
 }
